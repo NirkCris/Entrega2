@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>Empresa Lechera</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    </body>
+    <head>
+        <!--Barra superior, navegación diferentes opciones-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!--Logo y nombre empresa-->
+                <a href="#" class="navbar-brand">
+                    <img src="img/icon_nav_cow_milk.png" alt="Logo" class="d-inline-block align-text">
+                    Milk-Kris
+                </a>
+                <!--Boton de expancion para barra superior-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacionNavbar" aria-controls="navegacionNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Lista de navegacion del Navbar-->
+                <div class="collapse navbar-collapse" id="navegacionNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Leche</a></li>
+                                <li><a href="#" class="dropdown-item">Queso</a></li>
+                                <li><a href="#" class="dropdown-item">Yogurt</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                ¿Quienes somos?
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Historia</a></li>
+                                <li><a href="#" class="dropdown-item">Objetivos</a></li>
+                                <li><a href="#" class="dropdown-item">Alianzas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Noticias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Convenios</a></li>
+                                <li><a href="#" class="dropdown-item">Sedes</a></li>
+                                <li><a href="#" class="dropdown-item">Novedades</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <h1 class="title">Empresa de leche y sus derivados</h1>
+
+        <!--Carrusel de imagenes-->
+        <div id="seccionCarrusel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#seccionCarrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#seccionCarrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#seccionCarrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2500">
+                    <img src="img/leche_cereal.jpeg" class="d-block w-100" alt="Plato con leche y cereal, con fruta de adorno.">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="img/vaca_campo.jpg" class="d-block w-100" alt="Vacas en el campo verde">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="img/vaso_leche.jpg" class="d-block w-100" alt="Leche derramada afuera del vaso">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#seccionCarrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#seccionCarrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!--Tarjetas de información-->
+        <div class="container" id="seccionTarjetas">
+            <div class="row justify-content-center" id="row_one">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="img/icon_cow.png" class="card-img-top" alt="icono de animales productores de leche">
+                        <div class="card-body">
+                            <h5 class="card-title">Productores</h5>
+                            <p class="card-text">Nuestros queridos animalitos son felices recorriendo los fundos más verdes y amplios de la región.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-4">
+                    <div class="card">
+                        <img src="img/icon_milk.png" class="card-img-top" alt="vaso de leche">
+                        <div class="card-body">
+                            <h5 class="card-title">Leche</h5>
+                            <p class="card-text">Este suave líquido es obtenido de la mejor manera, para un mínimo sufrimiento de nuestros queridos animales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+
+            <div class="row justify-content-center text-center" id="row_two">
+                <div class="col-6">
+                    <div class="card" >
+                        <img src="img/icon_cheese.png" class="card-img-top" alt="queso animado">
+                        <div class="card-body accordion" id="acordionTarjeta">
+                            <div class="accordion-item">
+                              <h5 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Queso
+                                </button>
+                              </h5>
+                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#acordionTarjeta">
+                                <div class="accordion-body">
+                                    <p class="card-text">Los quesos adquieren el mejor sabor de todas las mañanas de tu infancia, cuando tu abuela te invitaba a tomar desayuno con una rica leche.</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center" id="row_three">
+                <div class="col-6">
+                    <div class="card">
+                        <img src="img/icon_help.png" class="card-img-top" alt="manos estrechadas con forma de ayuda">
+                        <div class="card-body" style="background-color: rgba(29, 171, 176, 0.516);">
+                            <h5 class="card-title">Ayuda</h5>
+                            <p class="card-text">Como empresa nos comprometemos a llevar nuestros productos a menor precio para nuestros niños en sus establecimientos educacionales, de esta manera, ellos y ellas creceran fuertes y saludables.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-6">
+                    <div class="card">
+                        <img src="img/icon_contact.png" class="card-img-top" alt="tarjeta con usuario y carta">
+                        <div class="card-body" style="background-color: rgba(29, 171, 176, 0.516);">
+                            <h5 class="card-title">Contacto</h5>
+                            <p class="card-text">¡No dudes en ponerte en contacto con nosotros!, estamos en busca de personas estusiastas para poder llegar a más Chilenos como tú.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Formulario-->
+        <div class="container" id="seccionForm">
+            <h3>¡Trabaja con nosotros!</h3>
+            <form action="" class="row">
+                <div class="col-6">
+                    <label for="nombreForm" class="form-label">Nombre</label>
+                    <input type="text" id="nombreForm" class="form-control" placeholder="Ingresar nombre">
+                </div>
+                <div class="col-6">
+                    <label for="apellidosForm" class="form-label">Apellidos</label>
+                    <input type="text" id="apellidosForm" class="form-control" placeholder="Ingresar apellidos">
+                </div>
+      
+                <div class="col-12">
+                    <label for="descripcionForm" class="form-label">Descripción de usted</label>
+                    <textarea id="descripcionForm" rows="3" class="form-control">Mis metas en esta empresa...</textarea>
+                </div>
+      
+                <div class="col-12">
+                    <label for="emailForm" class="form-label">Email</label>
+                    <input type="email" id="emailForm" class="form-control" placeholder="email@ejemplo.cl">
+                </div>
+      
+                <div class="col">
+                    <label for="seleccionadorGenero" class="form-label">Género</label>
+                    <select id="seleccionadorGenero" class="form-select">
+                        <option selected>Seleccionar género</option>
+                        <option value="1">Mujer</option>
+                        <option value="2">Hombre</option>
+                        <option value="3">Otro</option>
+                    </select>
+                </div>
+      
+                <div class="col">
+                    <label for="nacimientoForm" class="form-label">Fecha nacimiento</label>
+                    <input type="date" id="nacimientoForm" class="form-control">
+                </div>
+      
+            </form>
+        </div>
+
+
+        
+    </head>
+</html>

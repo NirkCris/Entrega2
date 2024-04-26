@@ -1,0 +1,46 @@
+.navbar {
+    background-color: rgba(208, 113, 25, 0.465);
+    font-family: 'Montserrat';
+}
+
+#carruselPrincipal {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(75, 11, 127);
+}
+
+.carousel-control-prev {
+    background-color: rgb(208, 113, 25, 0.200);
+}
+
+.carousel-control-next {
+    background-color: rgba(208, 113, 25, 0.200);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: italic;
+}
+
+.container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.card {
+    margin: 5%;
+}
+
+
+#seccionForm {
+    background-color: #8cc;
+}
+
+
+#seccionTarjetas {
+    background-color: #7b3c09be;
+}
